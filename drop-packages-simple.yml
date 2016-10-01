@@ -1,0 +1,163 @@
+# Made by RandomHashTags
+# Player has opened a simple drop package, and is revealing their loot
+#
+# Player is revealing a simple pane
+simple:
+  item1:
+    item: 'whitescroll'
+  item2:
+    item: 'blackscroll'
+  item3:
+    item: 'transmogscroll'
+  item4:
+    item: 'itemnametag'
+  item5:
+    item: 'legendarydp'
+  item6:
+    item: 'ultimatedp'
+  item7:
+    item: 'elitedp'
+  item8:
+    item: 'uniquedp'
+  item9:
+    item: 'simpledp'
+  item10:
+    item: 'soulbook'
+  item11:
+    item: 'legendarybook'
+  item12:
+    item: 'ultimatebook'
+  item13:
+    item: 'elitebook'
+  item14:
+    item: 'uniquebook'
+  item15:
+    item: 'simplebook'
+# Player is revealing a unique pane
+unique:
+  item1:
+    item: 'whitescroll'
+  item2:
+    item: 'blackscroll'
+  item3:
+    item: 'transmogscroll'
+  item4:
+    item: 'itemnametag'
+  item5:
+    item: 'legendarydp'
+  item6:
+    item: 'ultimatedp'
+  item7:
+    item: 'elitedp'
+  item8:
+    item: 'uniquedp'
+  item9:
+    item: 'simpledp'
+  item10:
+    item: 'soulbook'
+  item11:
+    item: 'legendarybook'
+  item12:
+    item: 'ultimatebook'
+  item13:
+    item: 'elitebook'
+  item14:
+    item: 'uniquebook'
+  item15:
+    item: 'simplebook'
+# Player is revealing a elite pane
+elite:
+  item1:
+    item: 'whitescroll'
+  item2:
+    item: 'blackscroll'
+  item3:
+    item: 'transmogscroll'
+  item4:
+    item: 'itemnametag'
+  item5:
+    item: 'legendarydp'
+  item6:
+    item: 'ultimatedp'
+  item7:
+    item: 'elitedp'
+  item8:
+    item: 'uniquedp'
+  item9:
+    item: 'simpledp'
+  item10:
+    item: 'soulbook'
+  item11:
+    item: 'legendarybook'
+  item12:
+    item: 'ultimatebook'
+  item13:
+    item: 'elitebook'
+  item14:
+    item: 'uniquebook'
+  item15:
+    item: 'simplebook'
+# Player is revealing a ultimate pane
+ultimate:
+  item1:
+    item: 'whitescroll'
+  item2:
+    item: 'blackscroll'
+  item3:
+    item: 'transmogscroll'
+  item4:
+    item: 'itemnametag'
+  item5:
+    item: 'legendarydp'
+  item6:
+    item: 'ultimatedp'
+  item7:
+    item: 'elitedp'
+  item8:
+    item: 'uniquedp'
+  item9:
+    item: 'simpledp'
+  item10:
+    item: 'soulbook'
+  item11:
+    item: 'legendarybook'
+  item12:
+    item: 'ultimatebook'
+  item13:
+    item: 'elitebook'
+  item14:
+    item: 'uniquebook'
+  item15:
+    item: 'simplebook'
+# Player is revealing a legendary pane
+legendary:
+  item1:
+    item: 'whitescroll'
+  item2:
+    item: 'blackscroll'
+  item3:
+    item: 'transmogscroll'
+  item4:
+    item: 'itemnametag'
+  item5:
+    item: 'legendarydp'
+  item6:
+    item: 'ultimatedp'
+  item7:
+    item: 'elitedp'
+  item8:
+    item: 'uniquedp'
+  item9:
+    item: 'simpledp'
+  item10:
+    item: 'soulbook'
+  item11:
+    item: 'legendarybook'
+  item12:
+    item: 'ultimatebook'
+  item13:
+    item: 'elitebook'
+  item14:
+    item: 'uniquebook'
+  item15:
+    item: 'simplebook'

@@ -1,0 +1,166 @@
+# Made by RandomHashTags
+# item-data is REQUIRED for ALL items! Only change it if you know how to use Item Data!
+MysteryMobSpawners:
+  # Discover-message found in messages.yml
+  Discover-message: true
+  item: 'mob_spawner'
+  item-data: 0
+  name: '&6&lMystery Mob Spawner'
+  lore:
+  - '&7Right-click in hand to reveal one'
+  - '&7of the following mob spawner types:'
+  - '&7'
+  - '&7'
+  - '&6&l* &7Endermen'
+  - '&6&l* &7Pigzombie'
+  - '&6&l* &7Cow'
+  - '&6&l* &7Creeper'
+  - '&6&l* &7Blaze'
+  - '&6&l* &7Iron Golem'
+  - '&6&l* &eMooshroom Cow'
+  - '&6&l* &eMagma Cube'
+  - '&6&l* &eGhast'
+  Enderman:
+    name: '&6&lEnderman &7Spawner'
+    lore:
+    - '&7Lore 1'
+  PigZombie:
+    name: '&6&lZombie Pigman &7Spawner'
+    lore:
+    - '&7Lore 1'
+  Cow:
+    name: '&6&lCow &7Spawner'
+    lore:
+    - '&7Lore 1'
+  Creeper:
+    name: '&6&lCreeper &7Spawner'
+    lore:
+    - '&7Lore 1'
+  Blaze:
+    name: '&6&lBlaze &7Spawner'
+    lore:
+    - '&7Lore 1'
+  IronGolem:
+    name: '&6&lIron Golem &7Spawner'
+    lore:
+    - '&7Lore 1'
+  MooshroomCow:
+    name: '&6&lMushroom Cow &7Spawner'
+    lore:
+    - '&7Lore 1'
+  MagmaCube:
+    name: '&6&lMagma Cube &7Spawner'
+    lore:
+    - '&7Lore 1'
+  Ghast:
+    name: '&6&lGhast &7Spawner'
+    lore:
+    - '&7Lore 1'
+WhiteScrolls:
+  item: 'empty_map'
+  item-data: 0
+  name: '&e&nWhite Scroll'
+  lore:
+  - '&fPrevents an item from being destroyed'
+  - '&fdue to a failed Enchantment Book.'
+  - '&ePlace scroll on item to apply.'
+  # This is applied to an item when the player adds a whitescroll to an item
+  protected-lore: '&f&lPROTECTED'
+BlackScrolls:
+  item: 'ink_sack'
+  item-data: 0
+  name: '&f&lBlack Scroll'
+  randomized-percent: true
+  max-percent: 100
+  min-percent: 60
+  # If randomized-percent is false, this will always be the percentage
+  default-percent: 75
+  lore:
+  - '&7Removes a random enchantment'
+  - '&7from an item and converts'
+  - '&7it into a &f%percent%% success book.'
+  - '&fPlace scroll on item to extract.'
+TransmogScrolls:
+  item: 'paper'
+  item-data: 0
+  name: '&e&lTransmog Scroll'
+  apply-count: '&9&l[&b&n%loreCount%&9&l]'
+  lore:
+  - '&7Organizes enchants by &e&nrarity&r &7on item'
+  - '&7and adds the &blore &acount &7to name'
+  - ' '
+  - '&e&oPlace scroll on item to apply'
+ItemNameTags:
+  item: 'name_tag'
+  item-data: 0
+  name: '&6&lItemNameTag &7(Right Click)'
+  lore:
+  - '&7Rename and customize your equipment'
+  # Adding an item to te blacklist will make that item unable to be renamed via a ItemNameTag
+  blacklisted-items:
+  - 'fireball'
+  - 'book'
+  - 'trapped_chest'
+  # Players will not be able to rename their item with these names
+  # Available RandomPackage item names (Casing doesn't matter):
+  # %SoulEnchantmentBook%
+  # %LegendaryEnchantmentBook%
+  # %UltimateEnchantmentBook%
+  # %EliteEnchantmentBook%
+  # %UniqueEnchantmentBook%
+  # %SimpleEnchantmentBook%
+  blacklisted-names:
+  - '&c&lSoul Enchantment Book &7(Right Click)'
+  - '&6&lLegendary Enchantment Book &7(Right Click)'
+  - '&e&lUltimate Enchchantment Book &7(Right Click)'
+  - '&b&lElite Enchantment Book &7(Right Click)'
+  - '&a&lUnique Enchantment Book &7(Right Click)'
+  - '&7&lSimple Enchantment Book &7(Right Click)'
+SoulTrackers:
+  item: 'paper'
+  item-data: 0
+  legendary:
+    tracked-lore: '&6&lSOULS HARVESTED: %souls%'
+    name: '&6&lLegendary Soul Tracker'
+    lore:
+    - '&7Apply to weapons to start tracking'
+    - '&6&lLegendary Souls &7collected from kills.'
+    - ' '
+    - '&c&lWARNING: &7Previously tracked souls'
+    - '&7will be released on apply.'
+  ultimate:
+    tracked-lore: '&e&lSOULS HARVESTED: %souls%'
+    name: '&e&lUltimate Soul Tracker'
+    lore:
+    - '&7Apply to weapons to start tracking'
+    - '&e&lUltimate Souls &7collected from kills.'
+    - ' '
+    - '&c&lWARNING: &7Previously tracked souls'
+    - '&7will be released on apply.'
+  elite:
+    tracked-lore: '&b&lSOULS HARVESTED: %souls%'
+    name: '&b&lElite Soul Tracker'
+    lore:
+    - '&7Apply to weapons to start tracking'
+    - '&b&lElite Souls &7collected from kills.'
+    - ' '
+    - '&c&lWARNING: &7Previously tracked souls'
+    - '&7will be released on apply.'
+  unique:
+    tracked-lore: '&a&lSOULS HARVESTED: %souls%'
+    name: '&a&lUnique Soul Tracker'
+    lore:
+    - '&7Apply to weapons to start tracking'
+    - '&a&lUnique Souls &7collected from kills.'
+    - ' '
+    - '&c&lWARNING: &7Previously tracked souls'
+    - '&7will be released on apply.'
+  simple:
+    tracked-lore: '&7&lSOULS HARVESTED: %souls%'
+    name: '&7&lSimple Soul Tracker'
+    lore:
+    - '&7Apply to weapons to start tracking'
+    - '&7&lSimple Souls &7collected from kills.'
+    - ' '
+    - '&c&lWARNING: &7Previously tracked souls'
+    - '&7will be released on apply.'

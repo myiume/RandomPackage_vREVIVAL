@@ -1,0 +1,13 @@
+# Made by RandomHashTags
+# Player has opened a ultimate drop package, and is revealing their loot
+#
+# Player is revealing a simple pane
+simple:
+# Player is revealing a unique pane
+unique:
+# Player is revealing a elite pane
+elite:
+# Player is revealing a ultimate pane
+ultimate:
+# Player is revealing a legendary pane
+legendary:

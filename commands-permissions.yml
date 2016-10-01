@@ -1,0 +1,23 @@
+# Made by RandomHashTags
+# Aliases are not set up at the moment! :(
+Tinkerer:
+  permission: 'RandomPackage.tinkerer'
+  aliases:
+  - 'tinker'
+Enchanter:
+  permission: 'RandomPackage.enchanter'
+  aliases:
+Alchemist:
+  permission: 'RandomPackage.alchemist'
+  aliases:
+gkits:
+  permission: 'RandomPackage.gkit'
+  reset-permission: 'RandomPackage.gkit.reset'
+  reset-other-permission: 'RandomPackage.gkit.reset.other'
+  aliases:
+SplitSouls:
+  permission: 'RandomPackage.splitsouls'
+  aliases:
+  - 'ws'
+Filter:
+  permission: 'RandomPackage.filter'

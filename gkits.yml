@@ -1,0 +1,1598 @@
+# Made by RandomHashTags
+# cooldown is measured in SECONDS!
+#
+# Every item is required to have:
+# item: '{item name here}'
+#
+# Available enchant names:
+# Protection - Prot - FireProtection - FireProt - BlastProtection - BlastProt
+# FeatherFalling - FF - ProjectileProtection - PP
+# DepthStrider - FrostWalker - AquaAffinity - AA - Thorns - Respiration
+# Efficiency - Fortune - SilkTouch
+# Luck - Lure
+# Sharpness - Smite - BaneOfArth - Unbreaking - FireAspect - FA - Knockback - Looting
+# Power - Punch - Infinity - Flame
+# Mending
+# MAX LEVEL FOR AN ENCHANT IS 100!
+#
+## Other things your item can have:
+## name: '{item name here (you can use color codes)}'
+## lore:
+## - 'Lore 1'
+## - 'Lore 2' - You can have as many lores as you want
+## item-data: {item data here} - Only use this if you know what you are doing.
+## enchant1: '{(AvailableEnchantNameSetAbove)_(LevelOfTheEnchant)}'
+## enchant2: '{(AvailableEnchantNameSetAbove)_(LevelOfTheEnchant)}'
+## example: enchant3: 'Protection_4' = Protection 4 | Max of 10 enchants on 1 item
+## example: enchant3: 'Prot_random' = A random level of the Protection enchant on the item
+## Set the MAX and MIN enchant level in the _placeholders.yml - Under 'gkits'
+## durability: {a number}
+chest-title: 'gkits'
+chest-size: 36
+'0':
+# Measured in seconds
+  cooldown: 259200
+  gui:
+    enchanted: true
+    item: 'pumpkin'
+    item-data: 0
+    name: '&b&kiii&f&l&nHeroic&5&kiii &f&lSpooky Kit'
+    lore:
+    - '&f'
+    - '&f&l* &6&lHeroic Headless Blade of Horror'
+    - '&f&l* &6&lHeroic Grim Reaper Shroud'
+    - '&f&l* &eHeroic Headless Chestplate of Nightmares'
+    - '&f&l* &eHeroic Headless Leggings of Nightmares'
+    - '&f&l* &eHeroic Headless Boots of Nightmares'
+    - '&f'
+    - '&7Petrify your enemies in fear.'
+    - '&6* Halloween 2015'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&6&lHeroic Grim Reaper Shroud'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Molten%'
+      - '%Deathbringer%'
+      - '%Spirits%'
+      - '%Voodoo%'
+      - '%Curse%'
+      - '%Overload%'
+      - '&6An onyx shroud, eminating death.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&eHeroic Headless Chestplate of Nightmares'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_4'
+      lore:
+      - '%Tank%'
+      - '&eA chestplate with a VERY spooky aura.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&eHeroic Headless Leggings of Nightmares'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_4'
+      lore:
+      - '%Wither%'
+      - '%PlagueCarrier%'
+      - '&eA pair of leggings with a VERY spooky aura.'
+    '4':
+      item: 'diamond_boots'
+      name: '&eHeroic Headless Boots of Nightmares'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_4'
+      lore:
+      - '%UndeadRuse%'
+      - '%Armored%'
+      - '%Gears%'
+      - '%EnderShift%'
+      - '&eA pair of boots with a VERY spooky aura.'
+    '5':
+      item: 'diamond_sword'
+      name: '&6&lHeroic Headless Blade of Horror'
+      enchant1: 'sharpness_5'
+      enchant2: 'fireaspect_2'
+      enchant3: 'unbreaking_2'
+      lore:
+      - '%Rage%'
+      - '%ThunderingBlow%'
+      - '%Paralyze%'
+      - '%Trap%'
+      - '%DeepWounds%'
+      - '%Demonforged%'
+      - '%Execute%'
+      - '%Lifesteal%'
+      - '%Vampire%'
+      - '%Blind%'
+      - '%Headless%'
+      - '&6An ancient blade imbued with the nightmares'
+      - '&6of all who have fallen before it.'
+'1':
+  cooldown: 259200
+  gui:
+    enchanted: true
+    item: 'Feather'
+    name: '&b&kiii&f&l&nHeroic&5&kiii &f&lHyperdrive Kit'
+    lore:
+    - '&f'
+    - '&f&l* &6&lHeroic Hermes Blade of Swiftness'
+    - '&f&l* &6&lHeroic Hyper Helmet of Hermes'
+    - '&f&l* &eHeroic Hyper Chestplate of Mercury'
+    - '&f&l* &eHeroic Hyper Leggings of Nike'
+    - '&f'
+    - '&7The most agile equipment in the galaxy.'
+    - '&6* Thanksgiving 2015'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&6&lHeroic Hyper Helmet of Hermes'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%Valor%'
+      - '%SmokeBomb%'
+      - '%Trickster%'
+      - '%Angelic%'
+      - '%Clarity%'
+      - '%Overload%'
+      - '&6A legendary agile helmet.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&eHeroic Hyper Chestplate of Mercury'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%Guardians%'
+      - '%Shockwave%'
+      - '%Tank%'
+      - '&eAn extremely light chestpiece.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&eHeroic Hyper Leggings of Nike'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%ObsidianShield%'
+      - '&eSo light, you forget you are wearing them!'
+    '4':
+      item: 'diamond_boots'
+      name: '&eHeroic Hyper Boots of Hermes'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%EnderShift%'
+      - '%Springs%'
+      - '%Gears%'
+      - '&eThe legendary boots of Hermes.'
+    '5':
+      item: 'diamond_sword'
+      name: '&6&lHeroic Hermes Blade of Swiftness'
+      enchant1: 'sharpness_5'
+      enchant2: 'fireaspect_2'
+      enchant3: 'unbreaking_2'
+      lore:
+      - '%Rage%'
+      - '%Trap%'
+      - '%SkillSwipe%'
+      - '%Poison%'
+      - '%Paralyze%'
+      - '%Lifesteal%'
+      - '%Inquisitive%'
+      - '%FeatherWeight%'
+      - '%Execute%'
+      - '%Disarmor%'
+      - '%DoubleStrike%'
+      - '&6A weapon unrivaled in destructive speed.'
+'2':
+  cooldown: 259200
+  gui:
+    enchanted: true
+    item: 'Blaze_powder'
+    name: '&b&kiii&f&l&nHeroic&5&kiii &f&lDestroyer Kit'
+    lore:
+    - '&f'
+    - '&f&l* &6&lHeroic Destructive Bow of Oblivion'
+    - '&f&l* &6&lHeroic Demon Stalker Greathelm'
+    - '&f&l* &eHeroic Demon Stalker Harness'
+    - '&f&l* &eHeroic Demon Stalker Greaves'
+    - '&f&l* &eHeroic Boots of the Destroyer'
+    - '&f'
+    - '&7Wreak havoc and destruction on the galaxy.'
+    - '&6* Heart of Darkness'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&6&lHeroic Demon Stalker Greathelm'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Frozen%'
+      - '%Deathbringer%'
+      - '%ObsidianShield%'
+      - '%Trickster%'
+      - '%Implants%'
+      - '%Commander%'
+      - '%Destruction%'
+      - '&6A spiked, firey helmet of destruction.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&eHeroic Demon Stalker Harness'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Frozen%'
+      - '%Deathbringer%'
+      - '%Spirits%'
+      - '%Curse%'
+      - '%Overload%'
+      - '%Shockwave%'
+      - '&eA chillingly cold, dark chestplate.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&eHeroic Demon Stalker Greaves'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Frozen%'
+      - '%Deathbringer%'
+      - '%PlagueCarrier%'
+      - '%Nutrition%'
+      - '&eAn extremly heavy pair of onyx leggings'
+    '4':
+      item: 'diamond_boots'
+      name: '&eHeroic Boots of the Destroyer'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Frozen%'
+      - '%Deathbringer%'
+      - '%UndeadRuse%'
+      - '%Springs%'
+      - '%Gears%'
+      - '&eEncrusted with onyx and black diamond.'
+    '5':
+      item: 'bow'
+      name: '&6&lHeroic Destructive Bow of Oblivion'
+      enchant1: 'power_5'
+      enchant2: 'punch_2'
+      enchant3: 'flame_1'
+      enchant4: 'unbreaking_3'
+      enchant5: 'infinity_1'
+      lore:
+      - '%IceFreeze%'
+      - '%Piercing%'
+      - '%Silence%'
+      - '%Rage%'
+      - '%Hellfire%'
+      - '%Blind%'
+      - '%Sniper%'
+      - '&6Become one with your inner darkness,'
+      - '&6and usher in the end of the galaxy.'
+    '6':
+      item: 'arrow'
+      name: '&fArrow'
+'3':
+  cooldown: 259200
+  gui:
+    enchanted: true
+    item: 'Eye_of_ender'
+    name: '&b&kiii&f&l&nHeroic&5&kiii &f&lGuardian Kit'
+    lore:
+    - '&f'
+    - '&f&l* &6&lHeroic Divine Bow of Valhalla'
+    - '&f&l* &6&lHeroic Halo of the Guardian'
+    - '&f&l* &eHeroic Sandals of the Divine'
+    - '&f&l* &eHeroic Divine Guardian Chestplate'
+    - '&f&l* &eHeroic Guardian Leggings'
+    - '&f'
+    - '&7Protect and serve the galaxy you love.'
+    - '&6* Heart of Darkness'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&6&lHeroic Halo of the Guardian'
+      enchant1: 'Prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%EnderShift%'
+      - '%Glowing%'
+      - '%Clarity%'
+      - '%Implants%'
+      - '%Protection%'
+      - '&6A glowing, warm, light halo.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&eHeroic Divine Guardian Chestplate'
+      enchant1: 'Prot_4'
+      enchant2: 'unbreaking_3'
+      ore:
+      - '%Enlighted%'
+      - '%SpiritLink%'
+      - '%Guardians%'
+      - '%Curse%'
+      - '%Shockwave%'
+      - '&eA glimmering, bright chestplate.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&eHeroic Guardian Leggings'
+      enchant1: 'Prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%SelfDestruct%'
+      - '%Nutrition%'
+      - '&eA glowing pair of heavingly leggings.'
+    '4':
+      item: 'diamond_boots'
+      name: '&eHeroic Sandals of the Divine'
+      enchant1: 'Prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%AntiGravity%'
+      - '%Gears%'
+      - '&eForged out of pure light essence.'
+    '5':
+      item: 'bow'
+      name: '&6&lHeroic Divine Bow of Valhalla'
+      enchant1: 'power_5'
+      enchant2: 'punch_1'
+      enchant3: 'unbreaking_3'
+      enchant4: 'infinity_1'
+      lore:
+      - '%Silence%'
+      - '%Rage%'
+      - '%Piercing%'
+      - '%Lightning%'
+      - '%ArrowLifesteal%'
+      - '%Snare%'
+      - '%Sniper%'
+      - '&6Protect and heal the galaxy,'
+      - '&6and maintain law and order.'
+    '6':
+      item: 'name_tag'
+      name: '&6&lItem NameTag &7(Right Click)'
+      lore:
+      - '&7Rename and customize your equipment'
+    '7':
+      item: 'paper'
+      name: '&e&lTransmog Scroll'
+      lore:
+      - '&7Organizes enchants by &e&nrarity&7 on item'
+      - '&7and adds the &blore &acount &7to name'
+      - '&f'
+      - '&e&oPlace scroll on item to apply'
+'4':
+  cooldown: 259200
+  gui:
+    enchanted: true
+    item: 'ender_portal_frame'
+    name: '&b&kiii&f&l&nHeroic&5&kiii &f&lDiablo Kit'
+    lore:
+    - '&f'
+    - '&f&l* &6&lHeroic Executioners Hood'
+    - '&f&l* &6&lHeroic Curse of Raven'
+    - '&f&l* &eHeroic Death Cloak'
+    - '&f&l* &eHeroic Death Greaves'
+    - '&f&l* &eHeroic Death Grave Stompers'
+    - '&f'
+    - '&7Summon fourth the power of the void.'
+    - '&6* Void Planet Release'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&6&lHeroic Executioners Hood'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%ObsidianShield%'
+      - '%Hardened%'
+      - '%Tank%'
+      - '%Voodoo%'
+      - '%Wither%'
+      - '%Poisoned%'
+      - '%Deathbringer%'
+      - '&6A blood-soaked silk coif.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&eHeroic Death Cloak'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%ObsidianShield%'
+      - '%Hardened%'
+      - '%Insomnia%'
+      - '%Curse%'
+      - '%Overload%'
+      - '&eA cloak darker than onyx.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&eHeroic Death Greaves'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%ObsidianShield%'
+      - '%Hardened%'
+      - '%PlagueCarrier%'
+      - '&eAn ominously dark pair of greaves.'
+    '4':
+      item: 'diamond_boots'
+      name: '&eHeroic Death Grave Stompers'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%ObsidianShield%'
+      - '%Hardened%'
+      - '%Armored%'
+      - '%EnderWalker%'
+      - '%EnderShift%'
+      - '&eA pair of boots as black as darkness.'
+    '5':
+      item: 'bow'
+      name: '&6&lHeroic Curse of Raven'
+      enchant1: 'power_5'
+      enchant2: 'unbreaking_3'
+      enchant3: 'infinity_1'
+      lore:
+      - '%ArrowLifesteal%'
+      - '%Rage%'
+      - '%IceFreeze%'
+      - '%Infernal%'
+      - '%Piercing%'
+      - '&6A darkbow forged in the void.'
+    '6':
+      item: 'arrow'
+      name: '&fArrow'
+'5':
+  cooldown: 259200
+  gui:
+    enchanted: true
+    item: 'red_rose'
+    name: '&b&kiii&f&l&nHeroic&5&kiii &f&lValentines Kit'
+    lore:
+    - '&f'
+    - '&f&l* &6&lHeroic Knife of Love'
+    - '&f&l* &6&lHeroic Short shorts'
+    - '&f&l* &6&lHeroic 6-pack Abs'
+    - '&f&l* &eHeroic Valentine Day Hat'
+    - '&f&l* &eHeroic Bunny Slippers'
+    - '&f'
+    - '&7The ultimate support kit!'
+    - '&6* Valentines 2015'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&eHeroic Valentine Day Hat &d&l[&b&l&n5&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Clarity%'
+      - '%Enlighted%'
+      - '%Hardened%'
+      - '%Glowing%'
+      - '&eImmunization to false love.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&6&lHeroic 6-pack Abs &d&l[&b&l&n5&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Deathbringer%'
+      - '%Overload%'
+      - '%Enlighted%'
+      - '%Guardians%'
+      - '%Hardened%'
+      - '%CreeperArmor%'
+      - '&6Boy, you are SUPER HOT.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&6&lHeroic Short shorts &d&l[&b&l&n5&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Overload%'
+      - '%Enlighted%'
+      - '%ObsidianShield%'
+      - '%Cactus%'
+      - '%Implants%'
+      - '&6Show off your yoked quads n glutes.'
+    '4':
+      item: 'diamond_boots'
+      name: '&eHeroic Bunny Slippers &d&l[&b&l&n5&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Gears%'
+      - '%Ghost%'
+      - '%Enlighted%'
+      - '%Hardened%'
+      - '%Angelic%'
+      - '%AntiGravity%'
+      - '&eComfortable AND functional!'
+    '5':
+      item: 'diamond_sword'
+      name: '&6&lHeroic Knife of Love &d&l[&b&l&n5&d&l]'
+      enchant1: 'sharpness_5'
+      enchant2: 'fireaspect_2'
+      enchant3: 'unbreaking_2'
+      lore:
+      - '%Disarmor%'
+      - '%Lifesteal%'
+      - '%Silence%'
+      - '%Trap%'
+      - '%DoubleStrike%'
+      - '%Paralyze%'
+      - '%DeepWounds%'
+      - '%Featherweight%'
+      - '%Insomnia%'
+      - '%Headless%'
+      - '&6A blade that pierces even'
+      - '&6the coldest and lonely of hearts.'
+    '6':
+      item: 'golden_apple'
+      name: '&fWhite Chocolate Apple'
+      amount: 8
+      lore:
+      - '&7Rich chocolate cut with sour apple.'
+    '7':
+      item: 'paper'
+      name: '&fEpic Love Letter'
+      Lore:
+      - '&7Written in an alien language...'
+      - '&7but someone loves you!'
+    '8':
+      item: 'monster_egg'
+      data: 96
+      name: '&fMooshroom Spawner Egg'
+      lore:
+      - '&7Almost as cute as you in that outfit!'
+'6':
+  cooldown: 259200
+  gui:
+    item: 'enchantment_table'
+    name: '&b&lArcane Kit'
+    lore:
+    - '&7Embrace the power of magic!'
+    - '&6* Magic Planet Release'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&eArcanist Hat'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%Glowing%'
+      - '&6A pointy, star speckled wizard hat.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&eArcanist Robeset'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%Shockwave%'
+      - '&eA bright, colorful silk robe.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&eArcanist Pantaloons'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '&eBrightly colored, puffy pantaloons.'
+    '4':
+      item: 'diamond_boots'
+      name: '&eArcanist Elf Shoes'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%EnderShift%'
+      - '&ePointy, jolly, and absolutely magical.'
+    '5':
+      item: 'bow'
+      name: '&6&lApollo''s Bow of the Inferno'
+      enchant1: 'power_5'
+      enchant2: 'unbreaking_3'
+      enchant3: 'infinity_1'
+      lore:
+      - '%Infernal%'
+      - '&6A translucent, firey bow.'
+    '6':
+      item: 'arrow'
+      name: '&fArrow'
+'7':
+  cooldown: 259200
+  gui:
+    item: 'Diamond_sword'
+    name: '&6&lGladiator Kit'
+    lore:
+    - '&7Become a ruthless warlord!'
+    - '&6* Arena Update'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&eGladiator Berserker Mask'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      Lore:
+      - '%Overload%'
+      - '%Aquatic%'
+      - '&6A leatherclad full mask with attached oxygen.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&eHeavy Gladiator Platemail'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Overload%'
+      - '%Tank%'
+      - '&eSpiked shoulders, a huge hunk of metal.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&eGladiator Trapper Leggings'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Overload%'
+      - '%Wither%'
+      - '&eA pair of battle-worn leather shorts.'
+    '4':
+      item: 'diamond_boots'
+      name: '&eSpiked Gladiator Battleboots'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Overload%'
+      - '%Gears%'
+      - '&eSturdy, agile, powerful. What more do you want?'
+    '5':
+      item: 'diamond_sword'
+      name: '&6&lAres Blade of Domination'
+      enchant1: 'sharpness_5'
+      enchant2: 'fireaspect_2'
+      enchant3: 'unbreaking_2'
+      lore:
+      - '%Deathbringer%'
+      - '%Featherweight%'
+      - '%DoubleStrike%'
+      - '&6A weapon unrivaled in brutality.'
+    '6':
+      item: 'bow'
+      name: '&6&lApollos Bow of the Inferno'
+      enchant1: 'power_5'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Explosive%'
+      - '%Lightning%'
+      - '&6A thundering bow of explosive power.'
+    '7':
+      item: 'arrow'
+      name: '&fArrow'
+      amount: 10
+'8':
+  cooldown: 259200
+  gui:
+    item: 'Apple'
+    name: '&5&lTrickster Kit'
+    lore:
+    - '&7Troll the galaxy.'
+    - '&6* April Fools 2015'
+    - '&4&lCOMING SOON'
+  items:
+    '1':
+      item: 'gold_helmet'
+      name: '&e&lGold Helmet'
+      lore:
+      - '%randomHelmet%'
+      - '%randomHelmet%'
+      - '%randomArmor%'
+'9':
+  cooldown: 259200
+  gui:
+    item: 'Golden_apple'
+    name: '&b&kiii&f&l&nHeroic&5&kiii &f&lTemplar Kit'
+    lore:
+    - '&f'
+    - '&f&l* &6&lHeroic Platemail of Aegis the Protector'
+    - '&f&l* &6&lHeroic Blade of the Knights Order'
+    - '&f&l* &eHeroic Halo of Light'
+    - '&f&l* &eHeroic Leggings of Replenishment'
+    - '&f&l* &eHeroic Sandals of the Angelic'
+    - '&f'
+    - '&7Protect your allies to your last breath.'
+    - '&6* Easter 2015'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&eHeroic Halo of Light'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Angelic%'
+      - '%Enlighted%'
+      - '%Lucky%'
+      - '%Glowing%'
+      - '&eAn illuminating light halo.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&6&lHeroic Platemail of Aegis the Protector'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Angelic%'
+      - '%Enlighted%'
+      - '%Commander%'
+      - '%Valor%'
+      - '%Leadership%'
+      - '%Hardened%'
+      - '%Clarity%'
+      - '%Overload%'
+      - '%Armored%'
+      - '%SelfDestruct%'
+      - '%SpiritLink%'
+      - '&6Protect your allies until your last breath.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&eHeroic Leggings of Replenishment'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Angelic%'
+      - '%Enlighted%'
+      - '%Lifebloom%'
+      - '%Nutrition%'
+      - '&eA whitemail pair of leggings.'
+    '4':
+      item: 'diamond_boots'
+      name: '&eHeroic Leggings of the Angelic'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Angelic%'
+      - '%Enlighted%'
+      - '%Gears%'
+      - '%EnderWalker%'
+      - '&eCrafted out of blessed light essence.'
+    '5':
+      item: 'diamond_sword'
+      name: '&6&lHeroic Blade of Knights Order'
+      enchant1: 'sharpness_5'
+      enchant2: 'smite_5'
+      enchant3: 'unbreaking_3'
+      enchant4: 'fireaspect_2'
+      lore:
+      - '%Trap%'
+      - '%Lifesteal%'
+      - '%Silence%'
+      - '%Obliterate%'
+      - '%Paralyze%'
+      - '%Disarmor%'
+      - '%Block%'
+      - '%Vampire%'
+      - '&6A blade obsessed with the templars with'
+      - '&6protective, paladin-like properties.'
+'10':
+  cooldown: 259200
+  gui:
+    item: 'Diamond_axe'
+    name: '&b&kiii&f&l&nHeroic&5&kiii &f&lViking Kit'
+    lore:
+    - '&f'
+    - '&f&l* &6&lHeroic Viking Skull Chainmail'
+    - '&f&l* &6&lAxe of the Dwarvish Gods'
+    - '&f&l* &eHeroic Spiked Viking Helmet'
+    - '&f&l* &eHeroic Nordic Iron Forged Leggings'
+    - '&f&l* &eHeroic Steeltoe Leather Boots'
+    - '&f'
+    - '&7Bloodthirsty, ruthless, axe-loving vikings.'
+    - '&6* Earth Day 2015'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&eHeroic Spiked Viking Helmet &d&l[&b&l&n3&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Deathbringer%'
+      - '%Implants%'
+      - '%Frozen%'
+      - '&eIron forged, lethally intimidating.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&6&lHeroic Viking Skull Chainmail &d&l[&b&l&n6&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Overload%'
+      - '%Spirits%'
+      - '%Shockwave%'
+      - '%Curse%'
+      - '%SpiritLink%'
+      - '%Commander%'
+      - '&6Boast freely, the skulls of your'
+      - '&6past enemies are part of your armor.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&eHeroic Nordic Iron Forged Leggings &d&l[&b&l&n4&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Lucky%'
+      - '%Armored%'
+      - '%Shockwave%'
+      - '%Frozen%'
+      - '&eIcy cold and terrifying to the touch.'
+    '4':
+      item: 'diamond_boots'
+      name: '&eHeroic Steeltoe Leather Boots &d&l[&b&l&n3&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Gears%'
+      - '%UndeadRuse%'
+      - '%Springs%'
+      - '&eExtremely agile, yet defensible.'
+    '5':
+      item: 'diamond_axe'
+      name: '&6&lAxe of the Dwarvish Gods &d&l[&b&l&n7&d&l]'
+      enchant1: 'sharpness_5'
+      enchant2: 'smite_5'
+      enchant3: 'unbreaking_2'
+      lore:
+      - '%Barbarian%'
+      - '%Cleave%'
+      - '%Blessed%'
+      - '%Bleed%'
+      - '%Pummel%'
+      - '%Berserk%'
+      - '%Reforged%'
+      - '&6An ancient axe forged by dwarven gods.'
+'11':
+  cooldown: 259200
+  gui:
+    item: 'Brewing_stand_item'
+    name: '&f&lTinkermaster Kit'
+    lore:
+    - '&7Cunning, mischievous, puppet master.'
+    - '&6* Bounty Hunter Update'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&eGnomish Tinkerer Hat'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Glowing%'
+      - '%Implants%'
+      - '&eThe latest and greatest in gnome technology.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&6&lMaster Tinkerer Clockwork Armor'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Shockwave%'
+      - '%SelfDestruct%'
+      - '%Guardians%'
+      - '&6A true technological masterpiece,'
+      - '&6turn the strength of your enemies against them.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&eTinkerer Steel Pants'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Frozen%'
+      - '%Nutrition%'
+      - '&eSaturating pants made of steel. Gnomes, man.'
+    '4':
+      item: 'diamond_boots'
+      name: '&eSnome Escapist Shoes'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%RocketEscape%'
+      - '%AntiGravity%'
+      - '%Gears%'
+      - '&eGet out of the stickiest of situations!'
+    '5':
+      item: 'bow'
+      name: '&e&lTeleportation Bow of the Tinkerer'
+      enchant1: 'power_5'
+      enchant2: 'punch_2'
+      enchant3: 'unbreaking_1'
+      lore:
+      - '%Teleportation%'
+      - '&eIf they blink, you will be gone.'
+    '6':
+      item: 'arrow'
+      name: '&fArrow'
+'12':
+  cooldown: 259200
+  gui:
+    item: 'Nether_star'
+    name: '&b&kiii&f&l&nHeroic&5&kiii &f&lCosmic Admiral Kit'
+    lore:
+    - '&f'
+    - '&f&l* &6&lExcalibur'
+    - '&f&l* &6&lHeroic Cosmonaut Biotic Legs'
+    - '&f&l* &6&lHeroic Boots of the Void Galaxy'
+    - '&f&l* &eHeroic Cosmic Admiral Military Jacket'
+    - '&f&l* &eHeroic Cosmic Admiral Military Hat'
+    - '&f'
+    - '&7The most feared military in the universe.'
+    - '&6* Galaxy Update'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&eHeroic Cosmic Admiral Military Hat &d&l[&b&l&n4&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%Protection%'
+      - '%Hardened%'
+      - '%Frozen%'
+      - '&ePerfectly stitched with bright embroideries.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&eHeroic Cosmic Admiral Military Jacket &d&l[&b&l&n5&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Bloodlust%'
+      - '%Deathbringer%'
+      - '%Overload%'
+      - '%Leadership%'
+      - '%Commander%'
+      - '&6The very existence of the medals pinned'
+      - '&6on your jacket ensure your victory.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&6&lHeroic Cosmonaut Biotic Legs &d&l[&b&l&n6&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%Guardians%'
+      - '%Armored%'
+      - '%Nutrition%'
+      - '%Cactus%'
+      - '%PlagueCarrier%'
+      - '&6War has taken its toll on you,'
+      - '&6but you are not one to surrender.'
+    '4':
+      item: 'diamond_boots'
+      name: '&6&lHeroic Boots of the Void Galaxy &d&l[&b&l&n5&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Clarity%'
+      - '%Gears%'
+      - '%EnderWalker%'
+      - '%UndeadRuse%'
+      - '%Springs%'
+      - '&6A spoil of war, but something'
+      - '&6is strange about these boots.'
+    '5':
+      item: 'diamond_sword'
+      name: '&6&lExcalibur &d&l[&b&l&n10&d&l]'
+      enchant1: 'sharpness_5'
+      enchant2: 'fireaspect_2'
+      enchant3: 'unbreaking_3'
+      lore:
+      - '%Inquisitive%'
+      - '%Lifesteal%'
+      - '%KillAura%'
+      - '%Shackle%'
+      - '%Silence%'
+      - '%DoubleStrike%'
+      - '%Reforged%'
+      - '%Featherweight%'
+      - '%Paralyze%'
+      - '%Headless%'
+      - '&6An electrifyingly twist on an,'
+      - '&6otherwise legendary holy blade.'
+'13':
+  cooldown: 259200
+  gui:
+    item: 'cake'
+    name: '&5&lParty Animal Kit'
+    lore:
+    - '&7Fight hard, party harder.'
+    - '&6* Cosmic #1 Year Anniversary'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&6&lServer Year #1 Party Hat'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      enchant3: 'blastprot_4'
+      lore:
+      - '%Enlighted%'
+      - '%Implants%'
+      - '%Glowing%'
+      - '%Aquatic%'
+      - '%Drunk%'
+      - '&6An extremely rare party hat, only'
+      - '&6obtainable on the #1 anniversary weekend.'
+      - '&6Now, party like it is 1999!'
+    '2':
+      item: 'Potion'
+      name: '&eChristmas Eggnog'
+      amount: 16
+      lore:
+      - '&7Also known as "egg milk punch",'
+      - '&7a chilled, sweetended, alcoholic'
+      - '&7beverage perfect for the holidays!'
+'14':
+  cooldown: 259200
+  gui:
+    item: 'book'
+    name: '&b&kiii&f&l&nHeroic&d&kiii &f&lEnchantment Kit'
+    lore:
+    - '&7Build your own custom sets!'
+    - '&6* Dream Planet Release'
+    - '&4&lCOMING SOON'
+  items:
+    '1':
+      item: 'gold_helmet'
+      name: '&e&lGold Helmet'
+      lore:
+      - '%randomHelmet%'
+      - '%randomHelmet%'
+      - '%randomArmor%'
+'15':
+  cooldown: 259200
+  gui:
+    item: 'Exp_bottle'
+    name: '&e&lGrand Master Kit'
+    lore:
+    - '&7Steal the knowledge of your enemies!'
+    - '&6* Castaway Planet Release'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&eShroud of Judgement'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%Deathbringer%'
+      - '&eStrike fear into your enemies,'
+      - '&eand admiration into your allies.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&eOnyx Cloak of the Grandmaster'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Lifebloom%'
+      - '%Deathbringer%'
+      - '%Overload%'
+      - '%Shockwave%'
+      - '&eA well kept, leather black cloak.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&eReinforced Leather Combat Leggings'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Nutrition%'
+      - '%Enlighted%'
+      - '&eAbsolute mobility, complete security.'
+    '4':
+      item: 'diamond_boots'
+      name: '&eSandals of Silence'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Springs%'
+      - '%Gears%'
+      - '%EnderShift%'
+      - '&eInvisible to the ear of your opponent.'
+    '5':
+      item: 'diamond_sword'
+      name: '&6&lShadow Killer'
+      enchant1: 'sharpness_5'
+      enchant2: 'fireaspect_2'
+      enchant3: 'unbreaking_3'
+      lore:
+      - '%Drunk%'
+      - '%Featherweight%'
+      - '%DoubleStrike%'
+      - '%Block%'
+      - '%SkillSwipe%'
+      - '%Silence%'
+      - '&6An onyx dagger with a dark legacy,'
+      - '&6rumor has it this blade only'
+      - '&6exists for a few fleeting moments'
+      - '&6before and after an assassination.'
+'16':
+  cooldown: 259200
+  gui:
+    item: 'Ender_pearl'
+    name: '&b&kiii&f&l&nHeroic&d&kiii &f&lVoidwalker Kit'
+    lore:
+    - '&7Walk the path of the void.'
+    - '&6* Demon Planet Release'
+  items:
+    '1':
+      item: 'diamond_boots'
+      name: '&6&LHeroic Erebus Sandals of the Void &d&l[&b&l&n10&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Deathbringer%'
+      - '%Gears%'
+      - '%Tank%'
+      - '%EnderWalker%'
+      - '%Armored%'
+      - '%AntiGravity%'
+      - '%Stormcaller%'
+      - '%Nimble%'
+      - '%Voodoo%'
+      - '%EnderShift%'
+      - '&eYou walk on the thin line between'
+      - '&eexistence and extinction, do your'
+      - '&eenemies dare to follow?'
+    '2':
+      item: 'diamond_sword'
+      name: '&6&lHeroic Chaos Executioner &d&l[&b&l&n8&d&l]'
+      enchant1: 'sharpness_5'
+      enchant2: 'smite_2'
+      enchant3: 'unbreaking_3'
+      lore:
+      - '%Rage%'
+      - '%Lifesteal%'
+      - '%Disarmor%'
+      - '%GreatSword%'
+      - '%silence%'
+      - '%Demonforged%'
+      - '%Trap%'
+      - '%Execute%'
+      - '&6A deamon forged greatsword,'
+      - '&6wieldable only to those the blade'
+      - '&6itself deems worthy, and to kill'
+      - '&6those it deems unworthy.'
+'17':
+  cooldown: 259200
+  gui:
+    item: 'Diamond_pickaxe'
+    name: '&b&kiii&f&l&nHeroic&d&kiii &f&lMaster Builder Kit'
+    lore:
+    - '&7Construct citadels worthy of kings.'
+    - '&6* Tool Enchant Update'
+  items:
+    '1':
+      item: 'diamond_pickaxe'
+      name: '&6&l Heroic Pickaxe of Hephaestus &d&l[&b&l&n6&d&l]'
+      enchant1: 'efficiency_4'
+      enchant2: 'unbreaking_3'
+      enchant3: 'fortune_1'
+      lore:
+      - '%Skilling%'
+      - '%Detonate%'
+      - '%AutoSmelt%'
+      - '%ObsidianDestroyer%'
+      - '%Experience%'
+      - '%Haste%'
+      - '&6A legendary tool forged by'
+      - '&6the cosmic god of builders.'
+    '2':
+      item: 'diamond_spade'
+      name: '&6&lHeroic Shivas Excavator &d&l[&b&l&n5&d&l]'
+      enchant1: 'efficiency_5'
+      enchant2: 'unbreaking_3'
+      enchant3: 'fortune_3'
+      lore:
+      - '%Skilling%'
+      - '%Detonate%'
+      - '%Telepathy%'
+      - '%Haste%'
+      - '%Oxygenate%'
+      - '&6An ancient spade use by'
+      - '&6the cosmic god of excavation.'
+'19':
+  cooldown: 259200
+  gui:
+    item: 'Diamond'
+    name: '&a&lArena Champion Kit'
+    lore:
+    - '&7Prove that no mortal can defeat you.'
+    - '&6* Cosmic Dueling'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&6&lCrown of the Coliseum Champion'
+      enchant1: 'prot_4'
+      enchant2: 'projectileprot_4'
+      enchant3: 'unbreaking_3'
+      lore:
+      - '%Valor%'
+      - '%Tank%'
+      - '%Implants%'
+      - '%Armored%'
+      - '%Deathbringer%'
+      - '%Overload%'
+      - '%Guardians%'
+      - '&6A golden crown embeded with bloodstones,'
+      - '&6beware the monster who dawns this sigil.'
+    '2':
+      item: 'diamond_sword'
+      name: '&6&lBloodstone Rapier of Kronos'
+      enchant1: 'sharpness_5'
+      enchant2: 'smite_2'
+      enchant3: 'unbreaking_2'
+      lore:
+      - '%Vampire%'
+      - '%Featherweight%'
+      - '%DoubleStrike%'
+      - '%DeepWounds%'
+      - '%Trap%'
+      - '%Paralyze%'
+      - '%Silence%'
+      - '%Rage%'
+      - '%Lifesteal%'
+      - '&6A blade with such a dark lineage'
+      - '&6its very existance has been condemned'
+      - '&6by the Counsel of Cosmonauts.'
+'20':
+  cooldown: 259200
+  gui:
+    item: 'Firework'
+    name: '&a&lIndependence Kit'
+    lore:
+    - '&7Break free from your chains.'
+    - '&6* July 4th 2015'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&6&lFreedom Hat'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Glowing%'
+      - '%Commander%'
+      - '%Enlighted%'
+      - '%Overload%'
+      - '%SmokeBomb%'
+      - '%Lucky%'
+      - '%Leadership%'
+      - '&6Free from the chains of the ancient'
+      - '&6masters, you are the captain of your'
+      - '&6own destiny.'
+    '2':
+      item: 'diamond_sword'
+      name: '&6&lRelic of Astraea'
+      enchant1: 'sharpness_5'
+      enchant2: 'smite_2'
+      enchant3: 'unbreaking_3'
+      lore:
+      - '%Inquisitive%'
+      - '%Trap%'
+      - '%Silence%'
+      - '%Execute%'
+      - '%Blind%'
+      - '%Featherweight%'
+      - '%Lifesteal%'
+      - '%Rage%'
+      - '&6A mystical runeblade imbued with,'
+      - '&6the virtue of Astraea, godess of justice.'
+'21':
+  cooldown: 259200
+  gui:
+    item: 'raw_beef'
+    name: '&c&lThe Butcher Kit'
+    lore:
+    - '&7A beast from the depths of the Nether.'
+    - '&6* Halloween Weekend 2015'
+  items:
+    '1':
+      item: 'diamond_chestplate'
+      name: '&6&lBloody Apron'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Overload%'
+      - '%BloodLust%'
+      - '%Deathbringer%'
+      - '%Curse%'
+      - '%Hardened%'
+      - '&6A cloth apron, soaked with the blood'
+      - '&6of all who have dared stand before you.'
+    '2':
+      item: 'diamond_axe'
+      name: '&c&lButcher''s Axe'
+      enchant1: 'sharpness_5'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Devour%'
+      - '%Bleed%'
+      - '%Cleave%'
+      - '&cThe axe of The Butcher, a demonic'
+      - '&cabomination from the deepest depths'
+      - '&cof the Nether.'
+    '3':
+      item: 'magma_cream'
+      name: '&eHalloween Candy &7(Right Click)'
+      lore:
+      - '&7A yummy piece of space candy, only'
+      - '&7obtainable during &7&nHalloween 2015'
+'22':
+  cooldown: 259200
+  gui:
+    item: 'tnt'
+    name: '&c&lCannoner Kit'
+    lore:
+    - '&7No amount of defenses can stop you.'
+    - '&6* Castle Planet Reset'
+    - '&4&lMissing Items!'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&6&lEnchanted Mining Helmet &d&l[&b&l&n5&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'projectileprot_4'
+      enchant3: 'unbreaking_3'
+      lore:
+      - '%CreeperArmor%'
+      - '%Clarity%'
+      - '%ObsidianShield%'
+      - '%Molten%'
+      - '%Aquatic%'
+      - '&6An enhanced version of the famous,'
+      - '&6minig helmet, your vision penetrates all.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&eOnyx Cloak of the Grandmaster &d&l[&b&l&n3&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'projectileprot_4'
+      enchant3: 'unbreaking_3'
+      lore:
+      - '%Overload%'
+      - '%Shockwave%'
+      - '%Ragdoll%'
+      - '&eA well kept, leather black cloak.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&eReinforced Leather Combat Leggings &d&l[&b&l&n3&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'projectileprot_4'
+      enchant3: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%Lifebloom%'
+      - '%Nutrition%'
+      - '&eAbsolute mobility, complete security.'
+    '4':
+      item: 'diamond_boots'
+      name: '&6&lGhost Sandals &d&l[&b&l&n5&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'projectileprot_4'
+      enchant3: 'unbreaking_3'
+      lore:
+      - '%Gears%'
+      - '%Ghost%'
+      - '%Lucky%'
+      - '%EnderWalker%'
+      - '%Springs%'
+      - '%RocketEscape%'
+      - '&6A pair of sandals from the depths of the'
+      - '&6void, wear these and become undetectable.'
+    '5':
+      item: 'bow'
+      name: '&6&lCrystal Bow of Athena &d&l[&b&l&n7&d&l]'
+      enchant1: 'power_5'
+      enchant2: 'punch_1'
+      enchant3: 'unbreaking_3'
+      enchant4: 'infinity_1'
+      lore:
+      - '%Sniper%'
+      - '%Piercing%'
+      - '%Silence%'
+      - '%Snare%'
+      - '%Teleportation%'
+      - '%Explosive%'
+      - '%Lightning%'
+      - '&6When you get your target within'
+      - '&6your sights, their journey ends.'
+    '6':
+      item: 'arrow'
+      name: '&fArrow'
+'23':
+  cooldown: 259200
+  gui:
+    item: 'diamond_chestplate'
+    name: '&b&lCosmonaut &5&lKit'
+    lore:
+    - '&7Reinventing the definition of a "godset".'
+    - '&6* Immortal Enchant Release'
+  items:
+    '1':
+      item: 'diamond_chestplate'
+      name: '&6&l%playername%''s Cosmonaut Spacesuit &d&l[&b&l&n4&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Immortal%'
+      - '%Deathbringer%'
+      - '%Ghost%'
+      - '%ObsidianShield%'
+      - '&6Forged of the finest materials in all'
+      - '&6the galaxy. A timepless, unique piece.'
+    '2':
+      item: 'diamond_leggings'
+      name: '&6&l%playername%''s Cosmonaut Pantaloons &d&l[&b&l&n5&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%CreeperArmor%'
+      - '%Overload%'
+      - '%Guardians%'
+      - '%Leadership%'
+      - '&6Created out of the richest materials'
+      - '&6in all the galaxy. So fabulous.'
+'24':
+  cooldown: 259200
+  gui:
+    item: 'Gold_helmet'
+    name: '&6&lPaladin Kit'
+    lore:
+    - '&7The best offense is a perfect defense.'
+    - '&6* Ice Planet Reset'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&eShroud of the Holy Order &d&l[&b&l&n6&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Enlighted%'
+      - '%Tank%'
+      - '%Armored%'
+      - '%Angelic%'
+      - '%Valor%'
+      - '%Glowing%'
+      - '&eA shiny, elegant silk shroud,'
+      - '&elinked together with chainmail.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&eDivine Paladin Chestplate &d&l[&b&l&n5&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Overload%'
+      - '%Tank%'
+      - '%Guardians%'
+      - '%Armored%'
+      - '%Shockwave%'
+      - '&eA blessed pair of indestructible platemail.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&6&lPlatelegs of Athena &d&l[&b&l&n6&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%CreeperArmor%'
+      - '%Enlighted%'
+      - '%Tank%'
+      - '%Armored%'
+      - '%Angelic%'
+      - '%Valor%'
+      - '&6Forged in the depths of Hephasteus,'
+      - '&6immuned to the weapons of mere mortals.'
+    '4':
+      item: 'diamond_boots'
+      name: '&eBoots of the Holy Order &d&l[&b&l&n6&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Gears%'
+      - '%Tank%'
+      - '%Armored%'
+      - '%Angelic%'
+      - '%Valor%'
+      - '%AntiGravity%'
+      - '&eSmelted out of pure holy essence.'
+'25':
+  cooldown: 259200
+  gui:
+    item: 'dragon_egg'
+    name: '&d&lWarlock Kit'
+    lore:
+    - '&7Become a master of the dark arts'
+    - '&6* Dungeon Planet Reset'
+  items:
+    '1':
+      item: 'diamond_helmet'
+      name: '&eWarlock Hat &d&l[&b&l&n5&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Deathbringer%'
+      - '%Destruction%'
+      - '%Armored%'
+      - '%Trickster%'
+      - '%Voodoo%'
+      - '&e&oAn evil version of a pointy wizard hat.'
+    '2':
+      item: 'diamond_chestplate'
+      name: '&eDemonic Warlock Robe &d&l[&b&l&n7&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Deathbringer%'
+      - '%Overload%'
+      - '%Armored%'
+      - '%Spirits%'
+      - '%SpiritLink%'
+      - '%Shockwave%'
+      - '%Curse%'
+      - '&e&oA chillingly cold, dark chestplate.'
+    '3':
+      item: 'diamond_leggings'
+      name: '&eHeroic Demon Stalker Greaves &d&l[&b&l&n5&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Deathbringer%'
+      - '%Wither%'
+      - '%Armored%'
+      - '%Nutrition%'
+      - '%PlagueCarrier%'
+      - '&e&oAn extremly heavy pair of onyx leggings.'
+    '4':
+      item: 'diamond_boots'
+      name: '&6&lGhostly Boots of the Warlock &d&l[&b&l&n8&d&l]'
+      enchant1: 'prot_4'
+      enchant2: 'unbreaking_3'
+      lore:
+      - '%Deathbringer%'
+      - '%Ghost%'
+      - '%Gears%'
+      - '%Armored%'
+      - '%AntiGravity%'
+      - '%Nimble%'
+      - '%Undeadruse%'
+      - '%RocketEscape%'
+      - '&6&oTrimmed with onyx and black diamond.'
+    '5':
+      item: 'bow'
+      name: '&6&lVexja &d&l[&b&l&n8&d&l]'
+      enchant1: 'power_5'
+      enchant2: 'punch_1'
+      enchant3: 'unbreaking_3'
+      enchant4: 'infinity_1'
+      lore:
+      - '%Sniper%'
+      - '%Rage%'
+      - '%ArrowLifesteal%'
+      - '%Blind%'
+      - '%Silence%'
+      - '%Piercing%'
+      - '%Unfocus%'
+      - '%Virus%'
+      - '&6&oA legendary bow imbued with extremly'
+      - '&6&oancient and powerful dark magicks.'
+    '6':
+      item: 'arrow'
+      name: '&fArrow'
+    '7':
+      item: 'ender_pearl'
+      name: '&fEnder Pearl'
+      amount: 16
+    '8':
+      item: 'ender_pearl'
+      name: '&fEnder Pearl'
+      amount: 16

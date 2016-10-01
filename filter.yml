@@ -1,0 +1,290 @@
+# Made by RandomHashTags
+filter-Selection-title: 'Item Filter Selection'
+#
+filter-equipment-title: 'Item Filter: Equipment'
+filter-equipment-size: 27
+#
+filter-potionSupplies-title: 'Item Filter: Potion Supplies'
+filter-potionSupplies-size: 27
+#
+filter-raiding-title: 'Item Filter: Raiding'
+filter-raiding-size: 27
+#
+filter-food-title: 'Item Filter: Food'
+filter-food-size: 27
+#
+filter-specialty-title: 'Item Filter: Specialty'
+filter-specialty-size: 27
+#
+filter-ores-title: 'Item Filter: Ores'
+filter-ores-size: 27
+#
+#
+# Filtered items name color (Items the player selected to be picked up when the filter is enabled)
+filtered-items-name-color: '&a'
+filtered-lore:
+- '&a&lWILL &7be picked up'
+- '&7when item filter is &nenabled'
+# These items the player will not be able to pick up when the filter is enabled
+unfiltered-items-name-color: '&c'
+unfiltered-lore:
+- '&c&lWILL NOT &7be picked up'
+- '&7when item filter is &nenabled'
+#
+equipment:
+  '0':
+    item: 'IRON_HELMET'
+  '1':
+    item: 'GOLD_HELMET'
+  '2':
+    item: 'DIAMOND_HELMET'
+  '3':
+    item: 'IRON_CHESTPLATE'
+  '4':
+    item: 'GOLD_CHESTPLATE'
+  '5':
+    item: 'DIAMOND_CHESTPLATE'
+  '6':
+    item: 'IRON_LEGGINGS'
+  '7':
+    item: 'GOLD_LEGGINGS'
+  '8':
+    item: 'DIAMOND_LEGGINGS'
+  '9':
+    item: 'IRON_BOOTS'
+  '10':
+    item: 'GOLD_BOOTS'
+  '11':
+    item: 'DIAMOND_BOOTS'
+  '12':
+    item: 'IRON_SWORD'
+  '13':
+    item: 'GOLD_SWORD'
+  '14':
+    item: 'DIAMOND_SWORD'
+  '15':
+    item: 'IRON_AXE'
+  '16':
+    item: 'GOLD_AXE'
+  '17':
+    item: 'DIAMOND_AXE'
+  '18':
+    item: 'BOW'
+  '19':
+    item: 'IRON_HOE'
+  '20':
+    item: 'GOLD_HOE'
+  '21':
+    item: 'DIAMOND_HOE'
+  '22':
+    item: 'ARROW'
+  '23':
+    item: 'ENDER_PEARL'
+  '24':
+    item: 'POTION'
+  '25':
+    item: 'SKULL_ITEM'
+#
+potionSupplies:
+  '0':
+    item: 'SPIDER_EYE'
+  '1':
+    item: 'MAGMA_CREAM'
+  '2':
+    item: 'GHAST_TEAR'
+  '3':
+    item: 'SLIME_BALL'
+  '4':
+    item: 'NETHER_STALK'
+  '5':
+    item: 'SPECKLED_MELON'
+  '6':
+    item: 'SUGAR'
+  '7':
+    item: 'GLOWSTONE_DUST'
+  '8':
+    item: 'GLOWSTONE'
+  '9':
+    item: 'GOLDEN_CARROT'
+  '10':
+    item: 'POTION'
+  '11':
+    item: 'WATER_BOTTLE'
+  '12':
+    item: 'WATER_LILY'
+  '13':
+    item: 'CARROT_ITEM'
+  '14':
+    item: 'QUARTZ'
+  '15':
+    item: 'RED_MUSHROOM'
+  '16':
+    item: 'APPLE'
+  '17':
+    item: 'BROWN_MUSHROOM'
+  '18':
+    item: 'INK_SACK'
+  '19':
+    item: 'POISONOUS_POTATO'
+  '20':
+    item: 'GOLDEN_APPLE'
+#
+raiding:
+  '0':
+    item: 'REDSTONE'
+  '1':
+    item: 'REDSTONE_LAMP_OFF'
+  '2':
+    item: 'REDSTONE_TORCH_ON'
+  '3':
+    item: 'REDSTONE_ORE'
+  '4':
+    item: 'COMPARATOR'
+  '5':
+    item: 'DIODE'
+  '6':
+    item: 'LAVA_BUCKET'
+  '7':
+    item: 'WATER_BUCKET'
+  '8':
+    item: 'TNT'
+  '9':
+    item: 'WEB'
+  '10':
+    item: 'SPONGE'
+  '11':
+    item: 'ICE'
+  '12':
+    item: 'PACKED_ICE'
+  '13':
+    item: 'DISPENSER'
+  '14':
+    item: 'DROPPER'
+  '15':
+    item: 'MONSTER_EGG'
+    item-data: 50
+  '16':
+    item: 'PISTON_BASE'
+  '17':
+    item: 'PISTON_STICKY_BASE'
+  '18':
+    item: 'HOPPER'
+  '19':
+    item: 'FLINT_AND_STEEL'
+#
+food:
+  '0':
+    item: 'BONE'
+  '1':
+    item: 'CARROT'
+  '2':
+    item: 'PUMPKIN'
+  '3':
+    item: 'MELON_BLOCK'
+  '4':
+    item: 'MELON'
+  '5':
+    item: 'RAW_BEEF'
+  '6':
+    item: 'COOKED_BEEF'
+  '7':
+    item: 'SUGAR_CANE'
+  '8':
+    item: 'CACTUS'
+  '9':
+    item: 'PORK'
+  '10':
+    item: 'GRILLED_PORK'
+  '11':
+    item: 'GOLDEN_APPLE'
+  '12':
+    item: 'PUMPKIN_SEEDS'
+  '13':
+    item: 'MELON_SEEDS'
+  '14':
+    item: 'SEEDS'
+#
+specialty:
+  '0':
+    item: 'MOB_SPAWNER'
+  '1':
+    item: 'MONSTER_EGG'
+  '2':
+    item: 'NAME_TAG'
+  '3':
+    item: 'CHEST'
+  '4':
+    item: 'TRAPPED_CHEST'
+  '5':
+    item: 'ENDER_CHEST'
+  '6':
+    item: 'PAPER'
+  '7':
+    item: 'EMPTY_MAP'
+  '8':
+    item: 'EXP_BOTTLE'
+  '9':
+    item: 'REDSTONE_TORCH_ON'
+  '10':
+    item: 'BOOK'
+  '11':
+    item: 'INK_SACK'
+  '12':
+    item: 'TORCH'
+  '13':
+    item: 'EMERALD'
+  '14':
+    item: 'MAGMA_CREAM'
+  '15':
+    item: 'GOLDEN_APPLE'
+  '16':
+    item: 'DIAMOND'
+  '17':
+    item: 'BONE'
+  '18':
+    item: 'ENDER_PEARL'
+# Items shown in the "ores" filter gui
+ores:
+  '0':
+    item: 'IRON_ORE'
+  '1':
+    item: 'IRON_INGOT'
+  '2':
+    item: 'IRON_BLOCK'
+  '3':
+    item: 'GOLD_ORE'
+  '4':
+    item: 'GOLD_INGOT'
+  '5':
+    item: 'GOLD_BLOCK'
+  '6':
+    item: 'REDSTONE_ORE'
+  '7':
+    item: 'REDSTONE'
+  '8':
+    item: 'REDSTONE_BLOCK'
+  '9':
+    item: 'LAPIS_ORE'
+  '10':
+    item: 'INK_SACK'
+    item-data: 4
+  '11':
+    item: 'LAPIS_BLOCK'
+  '12':
+    item: 'COAL_ORE'
+  '13':
+    item: 'COAL'
+  '14':
+    item: 'COAL_BLOCK'
+  '15':
+    item: 'EMERALD_ORE'
+  '16':
+    item: 'EMERALD'
+  '17':
+    item: 'EMERALD_BLOCK'
+  '18':
+    item: 'DIAMOND_ORE'
+  '19':
+    item: 'DIAMOND'
+  '20':
+    item: 'DIAMOND_BLOCK'

@@ -1,0 +1,289 @@
+# Made by RandomHashTags
+# 'cost' in the Enchanter works with XP and in-game money
+# HOW TO USE 'cost':
+# If you want to purchase the item with in-game cash, put a money symbol before the amount it costs
+# If you want to purchase the item with XP, add 'XP' to the end of the amount it costs
+# Examples below
+# cost: '$400'
+# cost: '400XP'
+Tinkerer:
+  slots: 54
+  chest-title: 'Tinkerer                You'
+  dust-item: 'sugar'
+  primal-item: 'glowstone_dust'
+  fireballs:
+    item: 'fireball'
+    # The names of the fireballs
+    legendary: '&6Legendary Magic Dust &7(Right Click)'
+    ultimate: '&eUltimate Magic Dust &7(Right Click)'
+    elite: '&bElite Magic Dust &7(Right Click)'
+    unique: '&aUnique Magic Dust &7(Right Click)'
+    simple: '&7Simple Magic Dust (Right Click)'
+    lore:
+    - '&7Contains: &bMagic, &ePrimal, &7or &fMystery &7dust.'
+    - '&7An unidentified satchel of dust.'
+  mystery:
+    # When the players' dust does succeed, this particle is played
+    particle: 'Lava'
+    item: 'sulphur'
+    name: '&fMystery Dust'
+    lore:
+    - '&7A failed by-produst of'
+    - '&7Magic and Primal dust.'
+  dust:
+    item: 'sugar'
+    # Name of the regular dust
+    legendary: '&6Legendary Magic Dust'
+    ultimate: '&eUltimate Magic Dust'
+    elite: '&bElite Magic Dust'
+    unique: '&aUnique Magic Dust'
+    simple: '&7Simple Magic Dust'
+    # This replaces the %color% in the lore with the set colors
+    legendary-color: '&6'
+    ultimate-color: '&e'
+    elite-color: '&b'
+    unique-color: '&a'
+    simple-color: '&7'
+    # This replaces the %book%
+    legendary-book: '&6Legendary'
+    ultimate-book: '&eUltimate'
+    elite-book: '&bElite'
+    unique-book: '&aUnique'
+    simple-book: '&7Simple'
+    lore:
+    - '&a+%percent%% Success'
+    - '&7Apply to a %book% &7Enchantment Book'
+    - '&7to increase its success by %color%%percent%%'
+  primal:
+    item: 'glowstone_dust'
+    legendary: '&6&lLegendary Magic Dust'
+    ultimate: '&e&lUltimate Magic Dust'
+    elite: '&b&lElite Magic Dust'
+    unique: '&a&lUnique Magic Dust'
+    simple: '&7&lSimple Magic Dust'
+    # This replaces the %color% in the lore with the set colors
+    legendary-color: '&6&l'
+    ultimate-color: '&e&l'
+    elite-color: '&b&l'
+    unique-color: '&a&l'
+    simple-color: '&7&l'
+    # This replaces the %book%
+    legendary-book: '&6Legendary'
+    ultimate-book: '&eUltimate'
+    elite-book: '&bElite'
+    unique-book: '&aUnique'
+    simple-book: '&7Simple'
+    lore:
+    - '&a&l+%percent%%&r &aSuccess'
+    - '&7Apply to a %book% &7Enchantment Book'
+    - '&7to increase its success by %color%%percent%%'
+Enchanter:
+  # Available default-gui's:
+  # EnchanterGui, Enchanter, SoulTracker, 
+  default-gui: 'EnchanterGui'
+  EnchanterGui:
+    size: 27
+    chest-title: 'Enchanter Gui'
+    '9':
+      item: 'paper'
+      name: '&aSoul Trackers'
+      open-gui: 'soultracker'
+    '11':
+      item: 'book'
+      name: '&aBooks'
+      open-gui: 'enchanter'
+    '15':
+      item: 'workbench'
+      name: '&aOther'
+      open-gui: 'other'
+    '17':
+      item: 'diamond'
+      name: '&bCustom'
+      open-gui: 'custom'
+  Enchanter:
+    size: 9
+    chest-title: 'Enchanter'
+########### Items ###########
+    '0':
+      item: 'stained_glass_pane'
+      item-data: 14
+      name: '&c&lSoul Enchantment Book'
+      lore:
+      - '&eCost: %cost%'
+      purchase: 'SoulEnchantmentBook'
+      cost: '$250000'
+    '2':
+      item: 'stained_glass_pane'
+      item-data: 7
+      name: '&7&lSimple Enchantment Book'
+      lore:
+      - '&eCost: %cost%'
+      purchase: 'SimpleEnchantmentBook'
+      cost: '400XP'
+    '3':
+      item: 'stained_glass_pane'
+      item-data: 5
+      name: '&a&lUnique Enchantment Book'
+      lore:
+      - '&eCost: %cost%'
+      purchase: 'UniqueEnchantmentBook'
+      cost: '800XP'
+    '4':
+      item: 'stained_glass_pane'
+      item-data: 3
+      name: '&b&lElite Enchantment Book'
+      lore:
+      - '&eCost: %cost%'
+      purchase: 'EliteEnchantmentBook'
+      cost: '2500XP'
+    '5':
+      item: 'stained_glass_pane'
+      item-data: 4
+      name: '&e&lUltimate Enchantment Book'
+      lore:
+      - '&eCost: %cost%'
+      purchase: 'UltimateEnchantmentBook'
+      cost: '5000XP'
+    '6':
+      item: 'stained_glass_pane'
+      item-data: 1
+      name: '&6&lLegendary Enchantment Book'
+      lore:
+      - '&eCost: %cost%'
+      purchase: 'LegendaryEnchantmentBook'
+      cost: '25000XP'
+    '8':
+      item: 'golden_apple'
+      item-data: 1
+      name: '&dBack'
+      open-gui: 'enchantergui'
+  SoulTracker:
+    size: 9
+    chest-title: 'Purchase Soul Trackers'
+    '2':
+      item: 'paper'
+      name: '&fSimple Soul Tracker'
+      lore:
+      - '&eCost: %cost%'
+      purchase: 'SimpleSoulTracker'
+      cost: '$100000'
+    '3':
+      item: 'paper'
+      name: '&aUnique Soul Tracker'
+      lore:
+      - '&eCost: %cost%'
+      purchase: 'UniqueSoulTracker'
+      cost: '$200000'
+    '4':
+      item: 'paper'
+      name: '&bElite Soul Tracker'
+      lore:
+      - '&eCost: %cost%'
+      purchase: 'EliteSoulTracker'
+      cost: '$400000'
+    '5':
+      item: 'paper'
+      name: '&eUltimate Soul Tracker'
+      lore:
+      - '&eCost: %cost%'
+      purchase: 'UltimateSoulTracker'
+      cost: '$800000'
+    '6':
+      item: 'paper'
+      name: '&6Legendary Soul Tracker'
+      lore:
+      - '&eCost: %cost%'
+      purchase: 'LegendarySoulTracker'
+      cost: '$2000000'
+    '8':
+      item: 'golden_apple'
+      item-data: 1
+      name: '&dBack'
+      open-gui: 'EnchanterGui'
+  Other:
+    size: 9
+    chest-title: 'Purchase Misc Items'
+    '1':
+      item: 'empty_map'
+      name: '&e&nWhite Scroll'
+      lore:
+      - '&eCost: %cost%'
+      purchase: 'WhiteScroll'
+      cost: '$50000'
+    '2':
+      item: 'ink_sack'
+      name: '&f&lBlackScroll'
+      lore:
+      - '&eCost: $%cost%'
+      purchase: 'BlackScroll'
+      cost: '$30000'
+    '3':
+      item: 'paper'
+      name: '&e&lTransmog Scroll'
+      lore:
+      - '&eCost: %cost%'
+      purchase: 'TransmogScroll'
+      cost: '$75000'
+    '4':
+      item: 'name_tag'
+      name: '&6Item Name Tag'
+      lore:
+      - '&eCost: %cost%'
+      purchase: 'ItemNameTag'
+      cost: '$75000'
+    '5':
+      item: 'mob_spawner'
+      name: '&6Mystery Mob Spawner'
+      lore:
+      - '&eCost: %cost%'
+      purchase: 'MysteryMobSpawner'
+      cost: '$500000'
+    '8':
+      item: 'golden_apple'
+      item-data: 1
+      name: '&dBack'
+      open-gui: 'EnchanterGui'
+  Custom:
+    size: 54
+    chest-title: 'Customize this in config.yml'
+Alchemist:
+  chest-title: 'Alchemist'
+  # Guis
+  accept:
+    item: 'stained_glass_pane'
+    item-data: 0
+    name: '&b&lCLICK TO EXCHANGE'
+    lore:
+    - '&c&lCOST: &c%cost%XP' # Do not move this
+    - ' '
+    - '&7Click here to confirm this'
+    - '&7item exchange and receive your'
+    - '&7epic new item shown above!'
+  exchange:
+    item: 'stained_glass_pane'
+    item-data: 14
+    name: '&b&lTHE SERVER ALCHEMIST'
+    lore:
+    - '&d&lThis NPC will exchange...'
+    - ' '
+    - '&b&l* &f2X Enchantment Books'
+    - '&7(of the same type and level)'
+    - '&d= &f1X Enchantment Book'
+    - '&7(of higher level)'
+    - ' '
+    - '&b&l* &f2X Magic Dust'
+    - '&7(of the same rarity)'
+    - '&d= &f1X Magic Dust'
+    - '&7(of higher rarity)'
+  preview:
+    item: 'stained_glass_pane'
+    item-data: 0
+    name: '&e&lITEM PREVIEW'
+    lore:
+    - '&7A preview of the item you will'
+    - '&7recieve from the Server Alchemist'
+    - '&7will be displayed here.'
+  other:
+    item: 'stained_glass_pane'
+    item-data: 15
+    name: ' '

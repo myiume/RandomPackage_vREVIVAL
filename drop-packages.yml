@@ -1,0 +1,99 @@
+# Made by RandomHashTags
+god:
+  chest-title: 'Godly Space Chest'
+  chest-size: 27
+  item: 'trapped_chest'
+  item-data: 0
+  name: '&c&lGodly Sserver Chest &7(Right Click)'
+  lore:
+  - '&7A cache of equipment packaged by'
+  - '&7the Intergalactic Server Station.'
+legendary:
+  chest-title: 'Legendary Drop Package'
+  chest-size: 27
+  item: 'trapped_chest'
+  item-data: 0
+  name: '&6&lLegendary Drop Package &7(Right Click)'
+  lore:
+  - '&7A cache of equipment packaged by'
+  - '&7the Intergalactic Server Station.'
+ultimate:
+  chest-title: 'Ultimate Drop Package'
+  chest-size: 27
+  item: 'trapped_chest'
+  item-data: 0
+  name: '&e&lUltimate Drop Package &7(Right Click)'
+  lore:
+  - '&7A cache of equipment packaged by'
+  - '&7the Intergalactic Server Station.'
+elite:
+  chest-title: 'Elite Drop Package'
+  chest-size: 27
+  item: 'trapped_chest'
+  item-data: 0
+  name: '&b&lElite Drop Package &7(Right Click)'
+  lore:
+  - '&7A cache of equipment packaged by'
+  - '&7the Intergalactic Server Station.'
+unique:
+  chest-title: 'Unique Drop Package'
+  chest-size: 27
+  item: 'trapped_chest'
+  item-data: 0
+  name: '&a&lUnique Drop Package &7(Right Click)'
+  lore:
+  - '&7A cache of equipment packaged by'
+  - '&7the Intergalactic Server Station.'
+simple:
+  chest-title: 'Simple Drop Package'
+  chest-size: 27
+  item: 'trapped_chest'
+  item-data: 0
+  name: '&f&lSimple Drop Package &7(Right Click)'
+  lore:
+  - '&7A cache of equipment packaged by'
+  - '&7the Intergalactic Server Station.'
+#
+panes:
+  select-item: 'trapped_chest'
+  select-item-data: 0
+  select-item-name: '&f&l???'
+  select-item-lore:
+  - '&7Choose 4 mystery panels, and'
+  - '&7your loot will be revealed'
+  #
+  selected-item: 'thin_glass'
+  selected-item-data: 0
+  selected-item-lore:
+  - '&7Choose 4 mystery panels, and'
+  - '&7your loot will be revealed'
+  #
+  legendary-item: 'stained_glass_pane'
+  legendary-item-data: 1
+  legendary-item-lore:
+  - '&7This slot contains a(n)'
+  - '%dropPackageRarity% &7piece of &6Legendary &7equipment'
+  #
+  ultimate-item: 'stained_glass_pane'
+  ultimate-item-data: 4
+  ultimate-item-lore:
+  - '&7This slot contains a(n)'
+  - '%dropPackageRarity% &7piece of &eUltimate &7equipment'
+  #
+  elite-item: 'stained_glass_pane'
+  elite-item-data: 3
+  elite-item-lore:
+  - '&7This slot contains a(n)'
+  - '%dropPackageRarity% &7piece of &bElite &7equipment'
+  #
+  unique-item: 'stained_glass_pane'
+  unique-item-data: 5
+  unique-item-lore:
+  - '&7This slot contains a(n)'
+  - '%dropPackageRarity% &7piece of &aUnique &7equipment'
+  #
+  simple-item: 'stained_glass_pane'
+  simple-item-data: 7
+  simple-item-lore:
+  - '&7This slot contains a(n)'
+  - '%dropPackageRarity% &7piece of &fSimple &7equipment'

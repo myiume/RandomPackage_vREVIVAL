@@ -1,0 +1,16 @@
+# Made by RandomHashTags
+SoulGem:
+  item: 'emerald'
+  item-data: 0
+  name: '&c&lSoul Gem [&6%souls%&c&l]'
+  lore:
+  - '&c&l* &cClick this item to activate &nSoul Mode'
+  - '&7White in "Soul Mode", your ACTIVE god tier'
+  - '&7enchantment will activate and drain souls'
+  - '&7for as long as this mode is enabled'
+  - ' '
+  - '&c&l* &7Use &c&n/splitsouls&r &7with this item'
+  - '&7to split souls off of it'
+  - ' '
+  - '&c&l* &7Stack other &cSoul Gems &7ontop of this'
+  - '&7one to combine their soul counts'

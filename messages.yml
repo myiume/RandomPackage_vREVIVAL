@@ -1,0 +1,96 @@
+# Made by RandomHashTags
+prefix: '&8&l[&a&lRandomPackage&8&l]&r'
+MysteryMobSpawner:
+  obtain-message:
+  - '%prefix% &7You have obtained x%amount% &6&lMystery Mob Spawners!'
+  discover-message:
+  - '%prefix% &7You have discovered a %type% &7Spawner!'
+ItemNameTags:
+  cannot-rename-air: '%prefix% &cYou need to be holding an item to rename'
+  cannot-rename-item: '%prefix% &cYou cannot rename this item'
+  cannot-rename-name: '%prefix% &cYou cannot rename any item with this name'
+  enter-rename: '%prefix% &aYour next message will try to rename your item'
+  rename-item: '%prefix% &7You have successfully renamed your item to ''%rename%'''
+Tinkerer:
+  insufficient-permission: '%prefix% &cYou do not have permission for this command.'
+  open: '%prefix% &eYou have opened the Tinkerer...'
+  trade-accept: '%prefix% &a&lTrade Accepted.'
+  trade-cancelled: '%prefix% &c&lTrade Cancelled.'
+Enchanter:
+  insufficient-permission: '%prefix% &cYou do not have permission for this command.'
+  open: '%prefix% &eYou have opened the Enchanter...'
+  purchase-item-with-xp: '&c&l-%amount% XP'
+  purchase-item-with-cash: '&c&l-$%amount%'
+  need-more-cash: '%prefix% &cYou need more money to purchase this'
+  need-more-xp: '%prefix% &cYou need more XP to purchase this'
+Alchemist:
+  insufficient-permission: '%prefix% &cYou do not have permission for this command.'
+  open: '%prefix% &eYou have opened the Alchemist...'
+  need-more-xp: '%prefix% &cYou need more XP to do this'
+  max-enchants: '%prefix% &cYou cannot alchemize max enchants'
+gkits:
+  insufficient-permission: '%prefix% &cYou do not have permission for this command.'
+  open: '%prefix% &eYou have opened the gkit menu...'
+  wait-for-cooldown: '%prefix% &cYou have to wait till the cooldown is finished.'
+  reset-self-gkits: '%prefix% &eYou have successfully reset your gkits'
+  reset-other-gkits: '%prefix% &eYou have successfully reset %player%''s gkits'
+  reset-other-offline: '%prefix% &cThis player doesn''t exist, or is offline'
+Enchants:
+  Dodge: '&b&l**DODGE'
+  Inversion: '&6&l** +%amount% HP'
+  Soul:
+    Teleblock: '&5&l** TELEBLOCK [%seconds%s] [-%enderpearlamount%ep]'
+    Teleblock-interact: '&d&l** Teleblock&5: You cannot use an enderpearl for %ms%ms!'
+Kitop:
+  insufficient-permission: '%prefix% &cYou do not have permission for this command.'
+SoulMode:
+  need-souls:
+  - '%prefix% &cYou need to collect some souls before entering Soul Mode'
+  out-of-souls:
+  - '&c&l** SOUL MODE: &nOFF&r &c&l**'
+  - '&7You ran out of souls to use! Collect more to activate Soul Enchants!'
+  activate:
+  - '&a&l** SOUL MODE: &nON&r &a&l**'
+  - '&7Activate soul enchantments will now drain soul gems'
+  soul-drain-update:
+  - ' '
+  - '&e&l** REMAINING SOULS: &n%souls%&e&l **'
+  deactivate:
+  - '&c&l** SOUL MODE: &nOFF&r &c&l**'
+  - '&7Soul enchantments will no longer drain soul gems'
+SoulTrackers:
+  apply-legendary: '&e&l(!) &eYou have applied a &6&lLegendary Soul Tracker &eto your %item%'
+  apply-ultimate: '&e&l(!) &eYou have applied a &e&lUltimate Soul Tracker &eto your %item%'
+  apply-elite: '&e&l(!) &eYou have applied a &b&lElite Soul Tracker &eto your %item%'
+  apply-unique: '&e&l(!) &eYou have applied a &a&lUnique Soul Tracker &eto your %item%'
+  apply-simple: '&e&l(!) &eYou have applied a &7&lSimple Soul Tracker &eto your %item%'
+SplitSouls:
+  insufficient-permission: '%prefix% &cYou do not have permission to use this command'
+  needs-soul-tracker: '%prefix% &cYou need to be holding an item with a soul tracker to use this command'
+  needs-souls: '%prefix% &cYou need to have harvested some souls to use this command'
+  split-legendary: '%prefix% &6&l- %souls% Legendary Souls'
+  split-ultimate: '%prefix% &e&l- %souls% Ultimate Souls'
+  split-elite: '%prefix% &b&l- %souls% Elite Souls'
+  split-unique: '%prefix% &a&l- %souls% Unique Souls'
+  split-simple: '%prefix% &7&l- %souls% Simple Souls'
+  add-soul-gems: '%prefix% &a&l+ %amount% Soul Gem(s)'
+Obtain:
+  SoulGem: '&7You have obtained &ax%amount% &c&lSoul Gems!'
+  Kitop: '%prefix% &eYou have obtained the Overpowered kit! Use this wisely!'
+Filter:
+  insufficient-permission: '%prefix% &cYou do not have permission for this command'
+  toggle-on:
+  - '&a&l(!) Item Filter &nEnabled'
+  - '&7Use &n/filter edit&r &7to edit the items you will pickup'
+  toggle-off:
+  - '&c&l(!) Item Filter &nDisabled'
+  argument-0:
+  - ' '
+  - '   %prefix%'
+  - '&b&lItem Filter Commands'
+  - '&f/filter toggle'
+  - '&7Toggle item pickup filter'
+  - ' '
+  - '&f/filter edit'
+  - '&7Edit items you pickup while the item filter is enabled'
+  - ' '

@@ -1,0 +1,124 @@
+# Made by RandomHashTags
+Soul:
+  DivineImmolation: false #Not implemented
+  Immortal: false         #Works without souls
+  NaturesWrath: true     #Works without souls
+Legendary:
+  Barbarian: true
+  BloodLust: false   #Not implemented
+  Clarity: true
+  Deathbringer: true
+  Devour: false      #Not implemented
+  Disarmor: true
+  Drunk: true
+  Enlighted: true
+  Gears: true
+  Ghost: true
+  Greatsword: true
+  Inquisitive: true
+  Inversion: true
+  KillAura: false    #Disabled
+  Lifesteal: true
+  Overload: true
+  Protection: true
+  Rage: true
+  Sniper: false        # Enchant Not implemented
+Ultimate:
+  Angelic: true
+  Armored: true
+  ArrowLifesteal: false  #Not implemented
+  Bleed: false           #Not implemented
+  Blessed: true
+  Blind: true
+  Block: false         #Not implemented
+  Cleave: true
+  CreeperArmor: true
+  Demonforged: true
+  Detonate: true
+  EnderWalker: false
+  Enrage: true
+  Farcast: true
+  Guardians: true
+  Hardened: true
+  Heavy: true
+  Leadership: false     #Not implemented
+  Lucky: true
+  ObsidianShield: true
+  Piercing: true
+  Shackle: true
+  Silence: true
+  Skilling: true
+  Tank: true
+  Training: true
+  Unfocus: true
+  Venom: false          #Not implemented
+  Wither: true
+Elite:
+  AntiGravity: true
+  Cactus: true
+  DeepWounds: true
+  Dodge: true
+  DoubleStrike: true
+  Execute: true
+  Frozen: true
+  Hellfire: true
+  IceAspect: true
+  IceFreeze: false     #Not implemented
+  Implants: true
+  Infernal: false      #Not implemented
+  Nimble: true
+  Poison: true
+  Poisoned: true
+  Pummel: true
+  RocketEscape: true
+  Shockwave: true
+  SkillSwipe: true
+  SmokeBomb: true
+  Spirits: true
+  Springs: true
+  Stormcaller: true
+  Telepathy: true
+  Teleportation: true
+  Trap: true
+  Trickster: true
+  UndeadRuse: true
+  Valor: true
+  Vampire: true
+  Voodoo: true
+  Virus: true
+Unique:
+  Aquatic: true
+  AutoSmelt: true
+  Berserk: true
+  Commander: true
+  Cowification: true
+  Curse: true
+  EnderShift: true
+  Experience: true
+  Explosive: true
+  Featherweight: true
+  Lifebloom: true
+  Molten: true
+  ObsidianDestroyer: true
+  Paralyze: true
+  PlagueCarrier: true
+  Ragdoll: true
+  Ravenous: true
+  Reforged: true
+  SelfDestruct: false       #Not implemented
+  SpiritLink: true
+  Stormcaller: true
+Simple:
+  Confusion: true
+  Decapitation: true
+  Epicness: true
+  Glowing: true
+  Haste: true
+  Headless: true
+  Healing: true
+  Insomnia: true
+  Lightning: true
+  Nutrition: true
+  Obliterate: true
+  Oxygenate: true
+  ThunderingBlow: true

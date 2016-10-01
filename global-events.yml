@@ -1,0 +1,12 @@
+# Made by RandomHashTags
+# True also means on
+rage-particles: true
+#
+GoldenAppleSickness: true
+# Safe time before the player attains the Sickness
+GoldenAppleSicknessInSeconds: 10
+GoldenAppleWarningMessage: '&9RandomPackage> &7You are about to attain &e&nGolden Apple Sickness!'
+GoldenAppleSicknessMessage: '&9RandomPackage> &7You have attained &e&nGolden Apple Sickness!'
+#
+# If a player has fire resistance, the fire animation is removed
+FireTicks: true

@@ -1,0 +1,19 @@
+# Made by RandomHashTags
+author: RandomHashTags
+name: RandomPackage
+main: me.randomHashTags.RandomPackage.RandomPackage
+version: REVIVAL
+commands:
+  randompackage:
+    aliases: [rp]
+  gkit:
+  tinkerer:
+  enchanter:
+  alchemist:
+  givedp:
+  kitop:
+  splitsouls:
+  filter:
+  de:
+  randombookgui:
+    aliases: [rbg]

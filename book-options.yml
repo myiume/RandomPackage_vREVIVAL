@@ -1,0 +1,41 @@
+# Made by RandomHashTags
+# This item is used to reveal the enchant
+reveal-item: 'Book'
+# This item is given with the random picked enchant
+given-item: 'Book'
+given-item-data: 0
+# This is added before the Book's Lore
+success-lore: '&a%success%% Success Rate'
+destroy-lore: '&c%destroy%% Destroy Rate'
+# This is added lastly
+last-lore: '&7Drop onto item to enchant'
+Soul:
+  name: '&c&lSoul Enchantment Book &7(Right Click)'
+  lore:
+  - '&7Examine to receive a random'
+  - '&csoul &7enchantment book.'
+Legendary:
+  name: '&6&lLegendary Enchantment Book &7(Right Click)'
+  lore:
+  - '&7Examine to receive a random'
+  - '&6legendary &7enchantment book.'
+Ultimate:
+  name: '&e&lUltimate Enchantment Book &7(Right Click)'
+  lore:
+  - '&7Examine to receive a random'
+  - '&eultimate &7enchantment book.'
+Elite:
+  name: '&b&lElite Enchantment Book &7(Right Click)'
+  lore:
+  - '&7Examine to receive a random'
+  - '&belite &7enchantment book.'
+Unique:
+  name: '&a&lUnique Enchantment Book &7(Right Click)'
+  lore:
+  - '&7Examine to receive a random'
+  - '&aunique &7enchantment book.'
+Simple:
+  name: '&7&lSimple Enchantment Book &7(Right Click)'
+  lore:
+  - '&7Examine to receive a random'
+  - '&7Simple enchantment book.'

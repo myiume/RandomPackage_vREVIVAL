@@ -1,0 +1,32 @@
+# Made by RandomHashTags
+# These are the success and destroy rate lore on the books
+success: '&a%success%% Success Rate'
+destroy: '&c%destroy%% Destroy Rate'
+EnchantTypes:
+  Armor: '&7Armor Enchant'
+  Helmet: '&7Helmet Enchant'
+  Chestplate: '&7Chestplate Enchant'
+  Leggings: '&7Leggings Enchant'
+  Boots: '&7Boots Enchant'
+  Weapon: '&7Weapon Enchant'
+  Sword: '&7Sword Enchant'
+  Axe: '&7Axe Enchant'
+  Tool: '&7Tool Enchant'
+  Shovel: '&7Shovel Enchant'
+  Pickaxe: '&7Pickaxe Enchant'
+  Bow: '&7Bow Enchant'
+  last-book-lore: '&7Drop onto item to enchant'
+gkits:
+  # If the player has permission for the gkit
+  gkit-permission-lore: '&a&lUNLOCKED'
+  gkit-no-permission-lore: '&c&lLOCKED'
+# 0 = 1
+# 1 = 2
+# 2 = 3
+# The max level of the enchant is " 'max-enchant-level' + 1 "
+# The min level of the enchant is " 'min-enchant-level' + 1 "
+  max-enchant-level: 4
+  min-enchant-level: 0
+# The player can only have this many souls harvested on an item
+# If the player kills someone with the max amount of souls harvested, nothing happens
+max-souls-harvested: 5000
